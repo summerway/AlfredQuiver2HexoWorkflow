@@ -38,10 +38,10 @@
 ## 命令
 | 命令      | 描述  |
 | :------:  | :-----:  |
-| qh server  | 同步完成后启动HEXO本地服务 |
-| qh deploy | 同步完成后部署网站 |
-| qh rollback | 回滚最近一次的同步操作 |
-| qh rollback deploy | 回滚最近一次的部署操作 |
+| `qh server`  | 同步完成后启动HEXO本地服务 |
+| `qh deploy` | 同步完成后部署网站 |
+| `qh rollback` | 回滚最近一次的同步操作 |
+| `qh rollback deploy` | 回滚最近一次的部署操作 |
 
 
 # 遇到问题

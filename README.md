@@ -23,7 +23,7 @@ Deploy website after synchronization finishes.
 [Workflow Link](https://raw.githubusercontent.com/summerway/AlfredQuiver2HexoWorkflow/master/quiver2hexo.alfredworkflow);
 
 ##  Preparation
-`qh server` and `qh deploy` can set hotkey
+`qh server` and `qh deploy` can set hotkey  
 ![](http://markdown.zengtuo.net/1552224648.png?imageMogr2/thumbnail/!50p)  
 - Import the markdown file in `hexo_path/source/_posts` into the Quiver, or make a backup. **The setup script will clear the directory**.
 - Add a specific tag to the note to be posted, the default is `relHexo`, which of course don't appear in **Hexo**.
@@ -36,10 +36,10 @@ First execute sync, an `.env` config file is generated.You can change config man
 ## Commands
 | Command      | Description  |
 | :------:  | :-----:  | 
-| `php sync.php -s` | Start the HEXO local server | 
-| `php sync.php -d` | Deploy after synchronization finishes|
-| `php sync.php -r` | Rollback the last sync operation| - |
-| `php sync.php -rd` | Rollback the last deploy operation| - |
+| `qh server` | Start the HEXO local server | 
+| `qh deploy` | Deploy after synchronization finishes|
+| `qh rollback` | Rollback the last sync operation| - |
+| `qh rollback deploy` | Rollback the last deploy operation| - |
 
 
 
