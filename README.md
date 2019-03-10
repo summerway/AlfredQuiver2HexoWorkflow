@@ -1,6 +1,6 @@
 # Overview
 **Quiver** notes  => `quiver2hexo` sync => **Hexo** posts => Deploy blog website  
-![](http://markdown.zengtuo.net/1552198456.png?imageMogr2/thumbnail/!70p)
+![](http://markdown.zengtuo.net/1552203274.png?imageMogr2/thumbnail/!70p)
 
 ## Synchronization
 - First sync，migrating **Quiver** notes written by markdown to **Hexo** blog posts.
@@ -19,7 +19,7 @@ Deploy website after synchronization finishes.
 
 # Usage
 ## Download
-[Workflow Link](http://github.com/summerway/AlfredQuiver2HexoWorkflow/quiver2hexo.alfredworkflow);
+[Workflow Link](https://raw.githubusercontent.com/summerway/AlfredQuiver2HexoWorkflow/master/quiver2hexo.alfredworkflow);
 
 ##  Preparation
 - Import the markdown file in `hexo_path/source/_posts` into the Quiver, or make a backup. **The setup script will clear the directory**.

@@ -1,7 +1,6 @@
 # 概述
 **Quiver**笔记  => `quiver2hexo`同步 => **Hexo** posts => 网站发布 
-
-![](http://markdown.zengtuo.net/1552198456.png?imageMogr2/thumbnail/!70p)
+![](http://markdown.zengtuo.net/1552203274.png?imageMogr2/thumbnail/!70p)
 
 ## 同步
 - 第一次同步，将**Quiver** markdown记录的笔记迁移到 **Hexo** _posts文件夹中 
@@ -20,7 +19,7 @@
 
 # 如何使用
 ## 下载
-[workflow下载地址](http://github.com/summerway/AlfredQuiver2HexoWorkflow/quiver2hexo.alfredworkflow);
+[workflow下载地址](https://raw.githubusercontent.com/summerway/AlfredQuiver2HexoWorkflow/master/quiver2hexo.alfredworkflow);
 
 ##  前期准备
 - 将`hexo_path/source/_post`目录下的markdown文件导入**Quiver**中，或者做好备份，**脚本会清空该目录**
