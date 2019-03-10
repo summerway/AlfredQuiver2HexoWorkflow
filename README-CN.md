@@ -12,6 +12,8 @@
 
 ## 发布部署
 在同步完成后部署网站
+![](http://markdown.zengtuo.net/1552225752.png?imageMogr2/thumbnail/!70p)
+
 
 ## 回滚
 - 支持回滚最近一次的同步操作
@@ -24,20 +26,22 @@
 ##  前期准备
 - 将`hexo_path/source/_post`目录下的markdown文件导入**Quiver**中，或者做好备份，**脚本会清空该目录**
 - 给发布笔记加上特定标签，默认是`relHexo`,当然该标签不会出现在**Hexo**。
-- 将文章加上`<!-- more -->`来精确控制文章的摘要预览,比如这篇文章就是在这个段落的末尾添加了该标志，所以本文在首页的预览就会显示到这个段落为止。
-![](http://markdown.zengtuo.net/1552197294.png?imageMogr2/thumbnail/!70p)
+![](http://markdown.zengtuo.net/1552223484.png?imageMogr2/thumbnail/!70p)
+
 
 ## 配置
+`qh server`和`qh deploy`可以设置快捷键  
+![](http://markdown.zengtuo.net/1552224648.png?imageMogr2/thumbnail/!50p)  
 第一次执行时, 会生成`.env`配置，请填写相关环境变量。
 ![](http://markdown.zengtuo.net/1552197683.png?imageMogr2/thumbnail/!70p)
 
 ## 命令
-| 命令      | 描述  | 默认快捷键 |
-| :------:  | :-----:  | :-----:  |
-| server  | 同步完成后启动HEXO本地服务 | `command` + `shift` + `s` |
-| deploy | 同步完成后部署网站 | `command` + `shift` + `d` |
-| rollback | 回滚最近一次的同步操作 | - |
-| rollback deploy | 回滚最近一次的部署操作 | - |
+| 命令      | 描述  |
+| :------:  | :-----:  |
+| qh server  | 同步完成后启动HEXO本地服务 |
+| qh deploy | 同步完成后部署网站 |
+| qh rollback | 回滚最近一次的同步操作 |
+| qh rollback deploy | 回滚最近一次的部署操作 |
 
 
 # 遇到问题
