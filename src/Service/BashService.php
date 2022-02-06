@@ -35,7 +35,8 @@ class BashService{
      * @return string
      */
     static function hexoDeploy($path){
-        return shell_exec("cd {$path} && hexo g -d");
+        $hexoBin = env('HEXO_BIN','hexo');
+        return shell_exec("cd {$path} && $hexoBin g -d");
     }
 
     /**
@@ -46,7 +47,9 @@ class BashService{
         if($pid = self::getProcessId("hexo")){
             self::kill($pid);
         }
-        return shell_exec("cd {$path} && (hexo s &)");
+
+        $hexoBin = env('HEXO_BIN','hexo');
+        return shell_exec("cd {$path} && ($hexoBin s &)");
     }
 
     static function getProcessId($process){
